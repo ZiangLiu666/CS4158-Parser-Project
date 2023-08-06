@@ -32,8 +32,7 @@ Steps: How to build and run my parser?
 3.If a program tried to ‘MOVE 500000 TO _Y’ a warning flag should be raised (as _Y is only declared as ‘SSSS’) :
 ![image](https://github.com/ZiangLiu666/CS4158-Parser-Project/assets/91567702/d58d63b5-4525-4709-bfa3-e062f122279c)
 
-4.  
-The parser can detect if, when you move a value from an identifier 1 to an identifier 2, identifier 1 is declared to be larger than identifier 2 and issue a warning. (in the example above 'MOVE Z to XY-1' should cause this).
+4. The parser can detect if, when you move a value from an identifier 1 to an identifier 2, identifier 1 is declared to be larger than identifier 2 and issue a warning. (in the example above 'MOVE Z to XY-1' should cause this).
 ![image](https://github.com/ZiangLiu666/CS4158-Parser-Project/assets/91567702/3b0024b5-5d3c-4022-8b89-0e8095fff518)
 
 
